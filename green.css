@@ -1,0 +1,211 @@
+body{
+	background-color: #9FC76C;
+	margin: 0;
+}
+
+#hi{
+	color: #71815C;
+	font-family: Yanone Kaffeesatz;
+	font-size: 150px;	
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	height: 100px;
+}
+
+#name{
+	color:#DEEACF;
+	font-family: Yanone Kaffeesatz;
+	font-size: 75px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	height: 35px;
+}
+
+#brandon{
+	max-height: 225px;
+	max-width: 225px;
+	border-radius: 50%;
+	margin-left: 150px;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+	border:5px solid #DEEACF;
+	cursor: pointer; 
+	opacity: 0.6;
+
+	transition-timing-function: ease-in-out;
+}
+#brandon:hover{
+	transition-duration: 0.5s;
+	transition-delay: .4;
+	opacity: 1;
+
+}
+
+#yep{
+	color:#71815C;
+	font-family: Yanone Kaffeesatz;
+	padding-left: 20px;	
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#feas{
+	color:#DEEACF;
+	font-family: Yanone Kaffeesatz;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	height: 50px;
+}
+
+.ability{
+	width: 100%; 
+  	height: 100%;
+  	list-style-type: none;
+  	margin: 0; padding: 10px 0 10px 0;
+  	overflow: hidden;
+ 	background-color: whitesmoke; 
+ 	font-family: Yanone Kaffeesatz;
+ 	font-size: 4em;
+ 	text-shadow: 0 3px;
+  	display: flex;
+  	justify-content: space-around;
+  	position: -webkit-sticky; /* Safari */ position: sticky;
+	border-radius: 30px;
+}
+
+/* All of these also fall under .ability*/
+
+
+#light{
+	text-decoration: none;
+	color:#9FC76C;
+	padding: 10px;
+}	
+
+#dark{
+	text-decoration: none;
+	color:#71815C;
+	padding: 10px;
+}
+
+#light:hover{
+	background-color: #71815C;
+	color: #DEEACF;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+#dark:hover{
+	background-color: #71815C;
+	color: #DEEACF;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+
+/* Ability end */
+
+
+#bio{
+	font-family: roboto;
+	font-size: 30px;
+	padding:15px;
+	margin: 30px;
+	margin-top: 10px;
+	max-height: 300px;
+	max-width: 500px;
+	background-color: #69A4EE;
+	color: whitesmoke;
+	border-radius: 20px;
+}
+
+
+
+#me{
+
+	padding: 0;
+	/*Center Image*/
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 40%;
+}
+
+#name2{
+	margin-top: 50px;
+	margin-bottom: 0;
+	font-size: 2.5em;
+	color: whitesmoke;
+	font-family: roboto;
+	text-align: center;
+}
+
+
+
+/* Contact Information */
+
+#contact{
+	text-align: center;
+	font-family: roboto;
+	font-weight: bold;
+	color: whitesmoke;
+	font-size: 40px;
+}
+
+
+.grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 0px;
+	border-radius: 20%;
+	background-color: #c4d3b1;
+	/*	margin: 20%;
+		width: 50%;
+	*/
+}
+
+#apps{
+	padding: 10px;
+	max-height: 115px;
+	max-width: 115px; 
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+/* Contact Information end */
+
+.flex{
+	padding-top: 5%;
+	display: flex;
+	justify-content: center;
+}
+
+.column-contacts{
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	padding-right: 5%;
+}
+.column{
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.empty{
+	width: 20%;
+	padding: 0;
+}
+.empty1{
+	height: 40%;
+	width: 1px;
+}
